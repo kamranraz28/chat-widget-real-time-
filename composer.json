@@ -1,0 +1,20 @@
+
+{
+    "name": "kamran/chat-widget",
+    "description": "A Laravel package to add a real-time chat widget using Blade, Echo, and Pusher.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kamran\\ChatWidget\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kamran\\ChatWidget\\ChatWidgetServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
