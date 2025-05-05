@@ -4,6 +4,12 @@
     "description": "A Laravel package to add a real-time chat widget using Blade, Echo, and Pusher.",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Kamran Hosan",
+            "email": "kamranraz28@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Kamran\\ChatWidget\\": "src/"
